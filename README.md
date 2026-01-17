@@ -32,5 +32,18 @@ $d = \frac{m\lambda}{\sin(\theta_1) - \sin(\theta_2)}$
 
 To prevent any ambiguity over all physically possible angles $(|\sin(\theta)| \leq 1)$, the spacing must satisfy:
 
-$d = \frac{\lambda}{2}
+$d = \frac{\lambda}{2}$
+
+Given that the formula for wavelength:  $\lambda = \frac{v}{f}$,  where v is the wave velocity (sound) and f is the frequency, the wavelength of 40 KHz sound is:
+
+$\lambda = \frac{343 m/s}{40 KHz} =$ 8.575 m. And taking into consideration the spacing between elements is 16mm, our $\frac{d}{\lambda} = $ 1.87.  In this case, rather than us getting a nice plot like this:
+
+<img width="784" height="587" alt="Screenshot 2026-01-17 143053" src="https://github.com/user-attachments/assets/033ffd38-ef1c-49e6-9d8f-4b7fc28fa5fb" />
+
+Our actual plot should be similar to this:
+
+<img width="792" height="592" alt="Screenshot 2026-01-17 135426" src="https://github.com/user-attachments/assets/8a9e41a8-81b1-40f7-844a-889ec6b612dd" />
+
+
+
 
